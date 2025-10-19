@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
-import { ChatList } from './components/ChatList';
-import { ChatView } from './components/ChatView';
-import { DebugPanel } from './components/DebugPanel';
-import { ContactManager } from './components/ContactManager';
-import { MessageInspector } from './components/MessageInspector';
-import { FilmMode } from './components/FilmMode';
-import { Toaster } from './components/ui/sonner';
+import { ChatList } from './components/ChatList.tsx';
+import { ChatView } from './components/ChatView.tsx';
+import { DebugPanel } from './components/DebugPanel.tsx';
+import { ContactManager } from './components/ContactManager.tsx';
+import { MessageInspector } from './components/MessageInspector.tsx';
+import { FilmMode } from './components/FilmMode.tsx';
+import { Toaster } from './components/ui/sonner.tsx';
 
 export interface Contact {
   id: string;
